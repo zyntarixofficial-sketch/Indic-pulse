@@ -257,7 +257,7 @@ Guidelines:
 3. Incorporate real-time information such as figures, rates, or dates directly from the search context if available.
 """
         completion = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             messages=[
                 {"role": "user", "content": system_instruction}
             ],
